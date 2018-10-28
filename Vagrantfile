@@ -35,7 +35,7 @@ node3.vm.hostname="node3"
 node3.vm.network "private_network", ip: "192.168.90.103"
 node3.vm.provision "shell", inline: script
 
-node3.vm.provision :shell, :path =>".provision/slave2.sh"
+node3.vm.provision :shell, :path =>".provision/slave.sh"
 end
 
 
